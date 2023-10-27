@@ -13,7 +13,7 @@ import com.educandoweb.course.entities.User;
 public class UserResource {
 	@GetMapping
 	public ResponseEntity<User> findAll(){
-		User u = new User(1L, "Erivando", "erivandoduarte01@gmail.com", "85988781515", "131828");
+		User u = new User(1L, "Erivando", "erivandoduarte01@gmail.com", "85988781518", "131828");
 		return ResponseEntity.ok().body(u);
 	}
 
